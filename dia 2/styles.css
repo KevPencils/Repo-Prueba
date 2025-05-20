@@ -1,0 +1,20 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: indigo;
+    list-style: none;
+    color: beige;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style: none;
+}
+h2{
+    color: darkslateblue;
+}
+h1{
+    color: indigo;
+}

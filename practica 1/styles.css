@@ -1,0 +1,49 @@
+.battambang-regular {
+  font-family: "Battambang", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+ h1{
+      font-family: "Battambang", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(61, 60, 60);
+ }
+ body{
+    background-color: rgb(216, 216, 216);
+ }
+ p{
+        font-family: "Battambang", system-ui;
+        font-weight: 300;
+        font-style: normal;
+        color: rgb(32, 32, 32);
+ }
+ h2{
+    font-family: "Battambang", system-ui;
+    font-weight: 350;
+    font-style: normal;
+    color: rgb(134, 73, 4);
+ }
+ footer{
+    background-color: rgb(235, 137, 25);
+    height: 100px;
+    text-align: center;
+    padding: 00px;
+    margin: 0;
+ }
+ #footer-message{
+     font-family: "Battambang", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(218, 216, 216);
+    padding: 10px;
+ }
+ img{
+    box-shadow: 10px 10px 1px rgb(243, 153, 36);
+ }
+ ol{
+     font-family: "Battambang", system-ui;
+    font-weight: 500;
+    font-style: oblique;
+    list-style: none;
+ }
