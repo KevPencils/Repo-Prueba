@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+input{
+    background-color: wheat;
+    border: none;
+    padding-left: 1px;
+    
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.contenedor{
+    height: 100%;
+    width: 100%;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.formulario{
+/*     border: solid 1px red; */
+    height: 300px;
+    width: 380px;
+    padding: 8px;
+    background-color: darkorange;
+    border-radius: 10px;
+    box-shadow: 10px 10px gray;
+    display: flex;
+    flex-direction: column;
+   
+}
+#primer-hijo{
+/*     border: solid 1px red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+
+}
+#segundo-hijo{
+/*     border: solid 1px red; */
+    display: flex;
+    gap: 5px;
+    margin-bottom: 25px;
+    
+}
+#tercer-hijo{
+    /* border: solid 1px red; */
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.correo{
+    width: 70%;
+    border: solid 1px red;
+}
+.nacimiento{
+    width: 40%;
+    border:  solid 1px red ;
+}
+#cuarto-hijo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+   
+}
+.boton{
+    display: flex;
+    margin-top: 50px;
+    background-color:deepskyblue;
+    color: tomato;
+    border: 0px;
+    border-radius: 3px;
+    padding: 3px;
+    font-weight: bold;
+    box-shadow: 2px 2px indianred;
+}
