@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(216, 232, 238);
+    margin: 0;
+    padding: 0;
+}
+h1{
+    justify-self: left;
+    color: bisque;
+    padding:50px ;
+    font-size: 60px;
+    
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+
+}
+header{
+    margin-top: 0;
+    text-align: center;
+    position: sticky;
+    background-image: url(./daily-planet.jpg);
+    background-position: center;
+
+}
+.navbar{
+    margin: 0;
+}
+ul{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    background-color: rgb(24, 24, 24);
+    gap: 10px;
+    padding: 3px;
+    position: sticky;
+    top: 200px;
+    font-family: "Special Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li{
+    list-style: none;
+    color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    align-items: baseline;
+    left:15px;
+    position: absolute;
+    left: 10%;
+
+}
+.caja-noticia{
+    width: 100px;
+    height: 150px;
+    padding: 5px;
+    border-radius: 4px;
+    position: relative;
+    top: 30px;
+
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.item1{
+    
+    background-image: url(./luthor.jpg);
+    background-position: -90px ;
+    background-size: 250%;
+    
+}
+
+.item2{
+    background-image: url(./strip-208-oct-17-1943.jpg);
+    background-position: -30px -30px;
+    position: relative;
+    right: 5%;
+    top: 80px;
+
+}
+.noticia-flotante{
+    width: 250px;
+    height: 400px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 10px 10px gray;
+}
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-kerning: 10px;
+    font-size: 30px;
+}
