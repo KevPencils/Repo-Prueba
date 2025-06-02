@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kevin Mura Portfolio</title>
+  <link rel="stylesheet" href="./output.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[url(./img/MiniProyectoFondo.jpg)] bg-no-repeat bg-center bg-cover w-[100%] h-[100%] bg-fixed ">
+
+  <!-- Fixed Header -->
+  <header class="fixed top-0 left-0 w-full bg-amber-500 p-4 flex items-center align-center justify-center z-50 shadow-2xl/100">
+    <div class="flex flex-col items-center justify-center w-full">
+        <h1 class="text-white font-bold text-2xl select-none mb-0 lg:text-4xl" >Kevin Mura</h1>
+        <p class="text-black  select-none mt-0 lg:text-2xl">&lt;Frontend Designer &gt;</p>
+        <!-- profile pic, only visible on "lg" -->
+    </div>
+      <div class="hidden lg:block lg:select-none lg:left-0">
+        <img src="./img/Kevin Mura Profile.jpeg " alt="Kevin's profile pic" class="w-24 h-24 mx-auto rounded-full border-4 border-orange-300 object-cover lg:mx-0 " />
+      </div>
+  </header>
+
+  
+<!-- Displays modal: -->
+<div>
+  <!-- hidden checkbox button:-->
+  <input type="checkbox" id="modal-toggle" class="hidden peer" />
+
+  <!-- Button to open a modal: -->
+  <label for="modal-toggle" class="fixed top-[100px] right-4 z-50 cursor-pointer ">
+    <img src="./img/chat_icon_.png" alt="Chat Button" class="w-16 h-16 mx-auto " />
+  </label>
+
+  <!-- Modal BG -->
+  <div class="fixed inset-0 bg-black/50 hidden peer-checked:flex items-center justify-center z-40">
+    <!-- Modal Content-->
+    <div class="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
+      <h2 class="text-xl font-bold mb-4">Let's have a chat :D</h2>
+      <!-- form: -->
+      <form class="flex flex-col space-y-4">
+        <input type="text" placeholder="Your name:" class="bg-gray-200 rounded-2xl pt-1 pb-1 pl-3">
+        <input type="email" placeholder="e-mail adress:" class="bg-gray-200 rounded-2xl pt-1 pb-1 pl-3">
+        <input type="text" placeholder="Subject:" class="bg-gray-200 rounded-2xl pt-1 pb-1 pl-3">
+        <input type="text" placeholder="Your message:" class="bg-gray-200 rounded-2xl pt-1 pb-1 pl-3">
+      </form>
+      <!-- "Close" modal button -->
+      <div class="mt-6  ">
+        <label for="modal-toggle" class="cursor-pointer bg-emerald-600 text-white px-4 py-2 rounded select-none active:bg-emerald-300">
+          Submit
+        </label>
+        <!-- "Submit" button -->
+        <label for="modal-toggle" class="cursor-pointer bg-red-500 text-white px-4 py-2 rounded select-none active:bg-red-300 ml-4">
+          Close
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Profile Picture "SM"-->
+  <section class="p-4 mt-[80px] select-none lg:hidden">
+    <img src="./img/Kevin Mura Profile.jpeg " alt="Kevin's profile pic" class="w-24 h-24 mx-auto rounded-full border-4 border-orange-300 object-cover lg:mx-0 " />
+  </section>
+
+  <!-- About Me S"M"-->
+  <section class="bg-black/40 mx-4 p-4 rounded lg:hidden">
+    <h2 class="font-bold text-orange-500 mb-2 select-none">About Me</h2>
+    <p class="text-sm text-amber-300 italic">I'm the new guy in this field, trying to complete my skillset with new technology so we can do amazing things together!</p>
+    <p class="text-sm text-amber-300 italic">I started as a graphic designer, then I became an experienced illustrator, and now... I’m developing nice-looking frontend projects!</p>
+  </section>
+    <!--GRADIENT TEST:     <div class="size-[100px] bg-gradient-to-r from-cyan-500 to-blue-500"></div> THIS ISN'T WORKING! -->
+    <!-- GRADIENT TEST: div class="size-[100px] bg-linear-[25deg,red_5%,yellow_60%,lime_90%,teal]"></div> THIS ONE IS WORKING! --> 
+  <!-- Main Buttons -->
+  <div class="flex flex-col items-center space-y-4 pr-[30%] pl-0 mt-10 align-middle justify-center w-(70%) lg:hidden ">
+    <button class="bg-amber-400 text-black py-2 px-6 rounded-r-full w-full active:bg-amber-50 active:text-amber-400">My Portfolio</button>
+    <button class="bg-amber-500 text-black py-2 px-6 rounded-r-full w-full active:bg-amber-50 active:text-amber-500">Scraps</button>
+    <button class="bg-amber-600 text-black py-2 px-6 rounded-r-full w-full active:bg-amber-50 active:text-amber-600">More about me</button>
+  </div>
+
+<!-- Main buttons WILL APPEAR ON "LG" SIZE!: -->
+ <div class="flex justify-center">
+ <div class="hidden lg:block">
+  <div class="flex flex-row justify-center">
+      <section class="bg-black/40 mx-4 p-4 rounded lg:mt-[200px] lg:w-[30%]">
+        <h2 class="font-bold text-orange-500 mb-2 select-none">About Me</h2>
+        <p class="text-sm text-amber-300 italic">I'm the new guy in this field, trying to complete my skillset with new technology so we can do amazing things together!</p>
+        <p class="text-sm text-amber-300 italic">I started as a graphic designer, then I became an experienced illustrator, and now... I’m developing nice-looking frontend projects!</p>
+      </section>
+
+      <!-- Main Buttons -->
+      <div class="flex flex-col items-center space-y-4 pr-[30%] pl-0 mt-[232px] align-baseline justify-center w-(70%) ">
+        <button class="bg-amber-400 text-black py-2 px-6 rounded-r-full w-full active:bg-amber-50 active:text-amber-400">My Portfolio</button>
+        <button class="bg-amber-500 text-black py-2 px-6 rounded-r-full w-full active:bg-amber-50 active:text-amber-500">Scraps</button>
+        <button class="bg-amber-600 text-black py-2 px-6 rounded-r-full w-full active:bg-amber-50 active:text-amber-600">More about me</button>
+      </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+  <!-- Latest Projects -->
+<section class="mt-10 px-4">
+  <div>
+    <h2 class="bg-red-600 text-white text-center py-2 rounded-t-lg font-semibold select-none">
+      My Latest Projects
+    </h2>
+
+    <div class="bg-black/40 rounded-b-lg p-4 overflow-hidden flex items-center justify-between">
+      <!-- Left arrow -->
+      <div class="flex items-center justify-center w-12 h-12">
+        <svg
+          class="w-10 h-10 text-white bg-red-600 rounded-full active:bg-amber-50 active:text-red-600"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="m15 19-7-7 7-7"
+          />
+        </svg>
+      </div>
+
+      <!-- Content -->
+      <div class="flex flex-col items-center justify-center flex-grow px-4">
+        <div class="h-32 w-full bg-center bg-cover mb-4 bg-[url('./img/websitesample.jpg')]"></div>
+        <h3 class="font-bold text-white text-center select-none">Project Title</h3>
+        <p class="text-sm text-white text-center italic">lorem ipsum</p>
+      </div>
+
+      <!-- right arrow -->
+      <div class="flex items-center justify-center w-12 h-12">
+        <svg
+          class="w-10 h-10 text-white bg-red-600 rounded-full active:bg-amber-50 active:text-red-600"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="m9 5 7 7-7 7"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+  
+
+  <!-- Technologies I Use -->
+  <section class="mt-25">
+    <div class="flex flex-col items-center space-y-4 pr-[30%] pl-0 mt-10">
+      <h2 class="bg-rose-700 text-white text-center py-2 px-6 rounded-r-full w-full font-semibold select-none mx-auto lg:rounded-full lg:w-[30%] lg:ml-4">
+      Technologies I use</h2>
+    </div>
+    <div class="bg-black/40 rounded-lg grid grid-cols-3 gap-y-4 mt-4 pl-4 pt-4 pb-4 mr-4 lg:w-[30%] lg:ml-4">
+      <div class="bg-[url(./img/html_logo.png)] bg-cover bg-center  rounded size-[80px]"></div>
+      <div class="bg-[url(./img/css_logo.png)] bg-cover bg-center  rounded size-[80px]"></div>
+      <div class="bg-[url(./img/js_logo.jpg)] bg-cover bg-center  rounded size-[80px]"></div>
+      <div class="bg-[url(./img/tailwind_logo.png)] bg-cover bg-center   rounded size-[80px]"></div>
+    </div>
+  </section>
+
+  <!-- Other Technologies -->
+
+    <div class="flex flex-col items-center space-y-4 pl-0 mt-10 pr-4 ">
+      <h2 class="bg-rose-900 text-white text-center py-2 px-6 rounded-r-full w-full font-semibold select-none mx-auto lg:rounded-full lg:w-[30%] lg:ml-4">
+      Other technologies and apps I use</h2>
+    </div>
+    <div class="bg-black/40 rounded-lg grid grid-cols-3 gap-y-4 mt-4 pl-4 pt-4 pb-4 mr-4  lg:w-[30%] lg:ml-4">
+      <div class="bg-[url(./img/AI_logo.png)] bg-cover bg-center rounded size-[80px]"></div>
+      <div class="bg-[url(./img/PS_logo.png)] bg-cover bg-center rounded size-[80px]"></div>
+      <div class="bg-[url(./img/Id_logo.png)] bg-cover bg-center rounded size-[80px]"></div>
+    </div>
+
+
+  <!-- Social Media -->
+<section class="mt-25 text-center">
+  <div class="flex flex-col items-center space-y-4 mt-10">
+    <h2 class="bg-pink-950 text-white text-center py-2 px-6 rounded-full font-semibold select-none w-auto mx-auto">
+      My social media
+    </h2>
+    <div class="flex justify-center gap-6 mt-4">
+      <div class="w-10 h-10 rounded-full bg-[url('./img/in.jpg')] bg-cover bg-center"></div>
+      <div class="w-10 h-10 rounded-full bg-[url('./img/IG.jpg')] bg-cover bg-center"></div>
+      <div class="w-10 h-10 rounded-full bg-[url('./img/f.jpg')] bg-cover bg-center"></div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="mt-16 bg-fuchsia-950 text-white text-center py-4 relative">
+    <p class="font-bold select-none">Kevin Mura 2025</p>
+    <p class="font-light select-none">© all rights reserved</p>
+    <!-- Let's Chat Button -->
+    <button class="fixed bottom-6 right-6 bg-orange-400 text-white p-3 rounded-full shadow-lg">
+     <a href="#"> ↑</a>
+    </button>
+  </footer>
+</body>
+</html>
